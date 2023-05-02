@@ -35,7 +35,7 @@ In the <u>second part</u>, you will apply the insights gained from the first par
 
 ## Team delivery
 
-Each team will be asked to create a fork from this repo where they will be developing their code. Then, when they are done they will have to create a pull request with all of the code, short report, and any supporting martial they would like to attach. 
+Each team will be asked to create a fork from this repo where they will be developing their code. Then, when they are done they will have to create a pull request with all of the code, short report, and any supporting material they would like to attach. 
 
 The report should contain a justification to all the design choices made throughout the competition. This report has to be less than 4 pages long (Unless you did both tracks and have a lot of information to add). 
 
