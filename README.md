@@ -12,30 +12,23 @@ So pack your bags and get ready for an exciting journey up Kilimanjaro!
 
 ## Challenge Description
 
-This challenge will consist of three different parts that will explore the different aspects of quantum computation. 
+This challenge will consist of three different parts of different thematics and difficulties that will explore all the stack of technologies in quantum computing. 
 
-The first Part is an **introductory problem**. This problem aims to introduce all the participants to the main problem we would like to tackle within this challenge which is  the Traveling Salesman Problem (TSP). This is a very interesting NP-hard optimization problem. In the first part of this challenge we would like you to solve this problem for a graph of 3 nodes using both Quantum Alternating Operator Ansatz (QAOA) and Adiabatic Quantum Optimization (AQO).
+The first challenge is an **introductory tutorial problem**, in which you'll tackle the famous Traveling Salesman Problem (TSP) for a graph of 3 nodes. To solve this problem we will use both Quantum Alternating Operator Ansatz (QAOA) and Adiabatic Quantum Optimization (AQO). This challenge serves as a preparation to solve a more difficult instance of the TSP. 
 
-The first Part is an **introductory problem**, in which you'll tackle the famous Traveling Salesman Problem (TSP) for a graph of 3 nodes. To solve this problem we will use both Quantum Alternating Operator Ansatz (QAOA) and Adiabatic Quantum Optimization (AQO). This part aims to introduce you to the main problem we'll tackle in this challenge.
+After this first introduction, we will be ready to solve real **software** challenges that we face when developing a quantum algorithm for current NISQ devices. 
 
-Next, the challenge splits into two complementary tracks (software and hardware) and you can choose to complete one or both:
+In this challenge we will increase the number of nodes to 5 nodes by adding a starting and ending nodes to the salesman travels. However, we are restricted to solve this problem on a quantum computer that only has 6 qubits. In this challenge you will learn a lot about how to optimize your cost function and data representation in order to account for the limitations of currect quantum computers. 
 
-The **software track** dives deeper into the challenges you might face when developing a quantum algorithm for current NISQ devices.
+Now that we are familiar with the algorithm we are ready to run it in real **hardware**!! During the **third challenge** will explore the exciting world of flux qubits and the hardware side of the annealing process. But beware!! This is a challenging open ended problem. The simulation of a quantum superconducting circuit may takes hours or even days so you must be extremelly careful with time management in this part of the challente. This last part is the perfect time to unleash your imagination as a researcher and to propose novel solutions to a problem of high interest. 
 
-The <u>first part</u> of this challenge we will increase the number of nodes to 5 nodes by adding a starting and ending nodes to the salesman travels. However, we are restricted to solve this problem on a quantum computer that has a maximum of 9 qubits. This problem asks you to find ways to add these extra nodes without increasing the number of qubits. 
+In the <u>first part</u>, you will be asked to design a custom quantum annealing circuit by adding the necessary qubits and couplers, and then optimize this design to achieve the best performance. You are free to choose the type of qubits and its layouts. The more realistic the best. Will you be able to run a test simulation of your circuit?   
 
-Then for <u>second part</u> we will change the graph back to only having 3 nodes for simplicity. However, this time without restricting the starting or ending points of the travels. Nevertheless, this time we only have access to a quantum computer with 6 qubits. This problem asks you to try and investigate ways to reduce the number of qubits to 6 or less. 
-
-The **hardware track** will explore the exciting world of flux qubits and the hardware side of the annealing process.
-
-In the <u>first part</u> of this track, you will be challenged to design a custom quantum annealing circuit by adding the necessary qubits and couplers, and then optimize this design to achieve the best performance. 
-
-In the <u>second part</u>, you will apply the insights gained from the first part to improve the fidelity of the solution for the TSP Hamiltonian in the introductory problem, by finding a better annealing schedule.
+In the <u>second part</u>, you will apply the insights gained from the first part to improve the fidelity of the solution for the TSP Hamiltonian in the introductory problem, by finding a better annealing schedule. For that matter, we will ask you to device techniques to find the minimum energy gap of the problem Hamiltonian. To device a Ising schedule to achieve the best performance. At last, you will design techniques to find the corresponding flux schedule. Are you able to do a simulation of this part? 
 
 
 ## Team delivery
 
 Each team will be asked to create a fork from this repo where they will be developing their code. Then, when they are done they will have to create a pull request with all of the code, short report, and any supporting material they would like to attach. 
 
-The report should contain a justification to all the design choices made throughout the competition. This report has to be less than 4 pages long (Unless you did both tracks and have a lot of information to add). 
-
+The report should contain a justification to all the design choices made throughout the competition. This report has to be less than 5 pages long. 
