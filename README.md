@@ -18,9 +18,7 @@ The first challenge is an **introductory tutorial problem**, in which you'll tac
 
 After this first introduction, we will be ready to solve real **software** challenges that we face when developing a quantum algorithm for current NISQ devices. 
 
-In the <u>first part</u> of the second challenge we will increase the number of nodes to 5 nodes by adding a starting and ending nodes to the salesman travels. However, we are restricted to solve this problem on a quantum computer that has a maximum of 9 qubits. This problem asks you to find ways to add these extra nodes without increasing the number of qubits. This types are qubits considerations are extremelly important for running the algorithms in real hardware. 
-
-Then for the <u>second part</u> we will change the graph back to only having 3 nodes for simplicity. However, this time without restricting the starting or ending points of the travels. Nevertheless, this time we only have access to a quantum computer with 6 qubits. This problem asks you to try and investigate ways to reduce the number of qubits to 6 or less. 
+In this challenge we will increase the number of nodes to 5 nodes by adding a starting and ending nodes to the salesman travels. However, we are restricted to solve this problem on a quantum computer that only has 6 qubits. In this challenge you will learn a lot about how to optimize your cost function and data representation in order to account for the limitations of currect quantum computers. 
 
 Now that we are familiar with the algorithm we are ready to run it in real **hardware**!! During the **third challenge** will explore the exciting world of flux qubits and the hardware side of the annealing process. But beware!! This is a callenging open ended problem. The simulation of a quantum superconducting circuit may takes hours or even days so you must be extremelly careful with time management in this part of the challente. This last part is the perfect time to unleash your imagination as a researcher and to propose novel solutions to a problem of high interest. 
 
