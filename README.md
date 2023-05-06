@@ -5,7 +5,9 @@ Welcome to an exciting quantum computing challenge that will take you on an adve
 
 As you journey up the mountain, you'll encounter a series of camps where you can rest and recharge. Your ultimate goal is to reach Kibo, the highest peak of Kilimanjaro, by finding the shortest possible path that visits each camp along the way.
 
-But there's a catch: This problem is known to be an NP-Hard problem, so to solve it efficiently, you'll need to use the power of quantum computing! Throughout this challenge you'll have the chance to explore the full stack of quantum computation, from the hardware level to the more abstract quantum algorithms and software development.
+But there's a catch: This problem is known to be an NP-Hard problem, and there is no known efficient methods to solve this classically. In this challenge we will explore different quantum algorithms that try to find a solution to this problem.
+
+Throughout this challenge you'll have the chance to explore the full stack of quantum computation, from the hardware level to the more abstract quantum algorithms and software development.
 
 So pack your bags and get ready for an exciting journey up Kilimanjaro!
 
